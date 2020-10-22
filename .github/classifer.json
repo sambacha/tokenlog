@@ -1,0 +1,16 @@
+
+ {
+  "$schema": "classifier.config.schema.json",
+  "assignees": {},
+  "labels": {
+    "wsl": {
+      "applyLabel": true
+    },
+    "containers": {
+      "applyLabel": true
+    },
+    "ssh": {
+      "applyLabel": true
+    }
+  }
+}
