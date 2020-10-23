@@ -47,7 +47,7 @@ export function isValidAddress(address: string) {
 export function GetNetworkName(chainId: number): string {
   switch (chainId) {
     case 1:
-      return 'homestead';
+      return 'mainnet';
     case 3:
       return 'ropsten';
     case 4:
@@ -58,5 +58,5 @@ export function GetNetworkName(chainId: number): string {
       return 'kovan';
   }
 
-  return 'homestead';
+  return 'mainnet (zugg)';
 }

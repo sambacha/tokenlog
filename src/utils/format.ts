@@ -68,6 +68,8 @@ export function LanguageColor(type: string): string {
       return '#cb171e';
     case 'Vue':
       return '#2c3e50';
+    case 'Vyper':
+      return '#9C8AF9';
   }
 
   return '#ccc';

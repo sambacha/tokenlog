@@ -1,5 +1,6 @@
 {
   "name": "tokenlog",
+  "license": "see license in license",
   "description": "Token weighted backlogs",
   "author": "wslyvh",
   "version": "0.1.0",
@@ -55,5 +56,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "@testing-library/dom": "^7.26.3"
   }
 }
