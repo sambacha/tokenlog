@@ -1,16 +1,25 @@
-sudo: false
+# travis-ci
+os: linux
+dist: xenial
+
 language: node_js
+
 node_js:
 - 12
+
 branches:
   only:
   - master
+  - trunk
+
 cache:
   directories:
   - node_modules
+  
 install:
-- yarn install
 - yarn global add codecov
+- yarn install
+
 script:
 - yarn lint
 - yarn format
